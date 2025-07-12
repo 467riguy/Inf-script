@@ -681,7 +681,8 @@
         <div class="search-container">
             <input type="text" id="searchInput" placeholder="Search games..." class="search-input" aria-label="Search games">
             <button class="search-button" aria-label="Submit search">
-                <i class="fas fa-search"></i> </button>
+                <i class="fas fa-search"></i>
+            </button>
         </div>
     </header>
 
@@ -695,10 +696,10 @@
 
     <main>
         <div class="category-filters">
-            </div>
+        </div>
         <h2>All Games</h2>
         <div class="game-grid" id="gameGrid">
-            </div>
+        </div>
     </main>
 
     <footer>
@@ -712,26 +713,260 @@
             { id: '10minutestildawn', name: '10 Minutes Till Dawn', description: 'Hold out until dawn against waves of enemies.', category: 'action', image: 'Imgs/10minutestildawn.png', url: 'Games/10minutestildawn.html' },
             { id: '12minibattles', name: '12 Mini Battles', description: 'Compete in a series of 12 wacky mini-games.', category: 'action', image: 'Imgs/12minibattles.png', url: 'Games/12minibattles.html' },
             { id: '1v1lol', name: '1v1.lol', description: 'Build and battle in this intense 1v1 shooter.', category: 'shooter', image: 'Imgs/1v1lol.png', url: 'Games/1v1lol.html' },
-            { id: '2048', name: '2048', description: 'Slide tiles and combine them to reach 2048.', category: 'strategy', image: 'Imgs/2048.png', url: 'Games/2048.html' },
+            { id: '2048', name: '2048', description: 'Slide tiles and combine them to reach 2048.', category: 'puzzle', image: 'Imgs/2048.png', url: 'Games/2048.html' },
             { id: 'ageofwar', name: 'Age of War', description: 'Evolve through the ages and destroy your enemy\'s base.', category: 'strategy', image: 'Imgs/ageofwar.png', url: 'Games/ageofwar.html' },
             { id: 'ageofwar2', name: 'Age of War 2', description: 'The classic strategy game returns with new units and ages.', category: 'strategy', image: 'Imgs/ageofwar2.png', url: 'Games/ageofwar2.html' },
             { id: 'amongus', name: 'Among Us', description: 'Work together, but beware the imposter!', category: 'strategy', image: 'Imgs/amongus.png', url: 'Games/amongus.html' },
-            { id: 'angrybirds', name: 'Angry Birds', description: 'Launch birds to topple the pigs\' defenses.', category: 'action', image: 'Imgs/angrybirds.png', url: 'Games/angrybirds.html' },
+            { id: 'angrybirds', name: 'Angry Birds', description: 'Launch birds to topple the pigs\' defenses.', category: 'puzzle', image: 'Imgs/angrybirds.png', url: 'Games/angrybirds.html' },
             { id: 'asteroids', name: 'Asteroids', description: 'A classic arcade shooter. Blast the asteroids and survive!', category: 'shooter', image: 'Imgs/asteroids.png', url: 'Games/asteroids.html' },
             { id: 'awesometanks', name: 'Awesome Tanks', description: 'Upgrade your tank and cause destruction.', category: 'action', image: 'Imgs/awesometanks.png', url: 'Games/awesometanks.html' },
             { id: 'awesometanks2', name: 'Awesome Tanks 2', description: 'More levels, more upgrades, more explosions!', category: 'action', image: 'Imgs/awesometanks2.png', url: 'Games/awesometanks2.html' },
             { id: 'badicecream', name: 'Bad Ice-Cream', description: 'Collect all the fruit while avoiding enemies.', category: 'action', image: 'Imgs/badicecream.png', url: 'Games/badicecream.html' },
-            { id: 'basketballstars', name: 'Basketball Stars', description: 'Show off your skills in this 1-on-1 basketball game.', category: 'action', image: 'Imgs/basketballstars.png', url: 'Games/basketballstars.html' },
-            { id: 'bitlife', name: 'BitLife', description: 'A life simulation game where you can be anything.', category: 'strategy', image: 'Imgs/bitlife.png', url: 'Games/bitlife.html' },
+            { id: 'basketballstars', name: 'Basketball Stars', description: 'Show off your skills in this 1-on-1 basketball game.', category: 'sports', image: 'Imgs/basketballstars.png', url: 'Games/basketballstars.html' },
+            { id: 'bitlife', name: 'BitLife', description: 'A life simulation game where you can be anything.', category: 'simulation', image: 'Imgs/bitlife.png', url: 'Games/bitlife.html' },
             { id: 'bloonsTD1', name: 'Bloons TD 1', description: 'The original tower defense classic. Pop all the bloons!', category: 'strategy', image: 'Imgs/bloonsTD1.png', url: 'Games/bloonsTD1.html' },
             { id: 'bloonsTD2', name: 'Bloons TD 2', description: 'More towers, more bloons, more strategy.', category: 'strategy', image: 'Imgs/bloonsTD2.png', url: 'Games/bloonsTD2.html' },
-            { id: 'bobtherobber', name: 'Bob the Robber', description: 'Use stealth and skill to pull off heists.', category: 'strategy', image: 'Imgs/bobtherobber.png', url: 'Games/bobtherobber.html' },
+            { id: 'bobtherobber', name: 'Bob the Robber', description: 'Use stealth and skill to pull off heists.', category: 'puzzle', image: 'Imgs/bobtherobber.png', url: 'Games/bobtherobber.html' },
             { id: 'boxhead2playrooms', name: 'Boxhead 2Play Rooms', description: 'Survive endless waves of zombies with a friend.', category: 'shooter', image: 'Imgs/boxhead2playrooms.png', url: 'Games/boxhead2playrooms.html' },
-            { id: 'cookieclicker', name: 'Cookie Clicker', description: 'The classic idle game. Click for cookies!', category: 'action', image: 'Imgs/cookieclicker.png', url: 'Games/cookieclicker.html' },
-            { id: 'crossyroad', name: 'Crossy Road', description: 'Why did the chicken cross the road? Find out!', category: 'action', image: 'Imgs/crossyroad.png', url: 'Games/crossyroad.html' },
-            { id: 'cuttherope', name: 'Cut the Rope', description: 'Feed Om Nom candy in this physics-based puzzle game.', category: 'strategy', image: 'Imgs/cuttherope.png', url: 'Games/cuttherope.html' },
+            { id: 'cookieclicker', name: 'Cookie Clicker', description: 'The classic idle game. Click for cookies!', category: 'casual', image: 'Imgs/cookieclicker.png', url: 'Games/cookieclicker.html' },
+            { id: 'crossyroad', name: 'Crossy Road', description: 'Why did the chicken cross the road? Find out!', category: 'casual', image: 'Imgs/crossyroad.png', url: 'Games/crossyroad.html' },
+            { id: 'cuttherope', name: 'Cut the Rope', description: 'Feed Om Nom candy in this physics-based puzzle game.', category: 'puzzle', image: 'Imgs/cuttherope.png', url: 'Games/cuttherope.html' },
             { id: 'doom', name: 'Doom', description: 'The legendary first-person shooter. Rip and tear!', category: 'shooter', image: 'Imgs/doom.png', url: 'Games/doom.html' },
-            { id: 'ducklife', name: 'Duck Life', description: 'Train your duckling to become a champion racer.', category: 'action', image: 'Imgs/ducklife.png', url: 'Games/ducklife.html' },
-            { id: 'ducklife4', name: 'Duck Life 4', description: 'The biggest Duck Life adventure yet!', category: 'action', image: 'Imgs/ducklife4.png', url: 'Games/ducklife4.html' },
+            { id: 'ducklife', name: 'Duck Life', description: 'Train your duckling to become a champion racer.', category: 'simulation', image: 'Imgs/ducklife.png', url: 'Games/ducklife.html' },
+            { id: 'ducklife4', name: 'Duck Life 4', description: 'The biggest Duck Life adventure yet!', category: 'simulation', image: 'Imgs/ducklife4.png', url: 'Games/ducklife4.html' },
             { id: 'earntodie', name: 'Earn to Die', description: 'Drive through a zombie apocalypse, upgrading your car along the way.', category: 'action', image: 'Imgs/earntodie.png', url: 'Games/earntodie.html' },
-            { id: 'fancy
+            { id: 'eggycar', name: 'Eggy Car', description: 'Carefully drive the car and protect the egg from breaking.', category: 'casual', image: 'Imgs/eggycar.png', url: 'Games/eggycar.html' },
+            { id: 'endlesswar3', name: 'Endless War 3', description: 'Engage in intense military combat across various missions.', category: 'shooter', image: 'Imgs/endlesswar3.png', url: 'Games/endlesswar3.html' },
+            { id: 'fancypantsadventures', name: 'Fancy Pants Adventures', description: 'Run, jump, and wall-slide through a whimsical world.', category: 'platformer', image: 'Imgs/fancypantsadventures.png', url: 'Games/fancypantsadventures.html' },
+            { id: 'fireboyandwatergirlforesttemple', name: 'Fireboy and Watergirl: Forest Temple', description: 'Cooperate to solve puzzles and collect gems.', category: 'puzzle', image: 'Imgs/fireboyandwatergirlforesttemple.png', url: 'Games/fireboyandwatergirlforesttemple.html' },
+            { id: 'flappybird', name: 'Flappy Bird', description: 'Tap to make the bird fly and avoid pipes. How far can you get?', category: 'casual', image: 'Imgs/flappybird.png', url: 'Games/flappybird.html' },
+            { id: 'fnaf1', name: 'Five Nights at Freddy\'s 1', description: 'Survive five nights as a security guard at Freddy Fazbear\'s Pizza.', category: 'horror', image: 'Imgs/fnaf1.png', url: 'Games/fnaf1.html' },
+            { id: 'fnaf2', name: 'Five Nights at Freddy\'s 2', description: 'Even more animatronics and challenges in this terrifying sequel.', category: 'horror', image: 'Imgs/fnaf2.png', url: 'Games/fnaf2.html' },
+            { id: 'fnaf3', name: 'Five Nights at Freddy\'s 3', description: 'A new horror attraction, with a familiar face lurking.', category: 'horror', image: 'Imgs/fnaf3.png', url: 'Games/fnaf3.html' },
+            { id: 'fnaf4', name: 'Five Nights at Freddy\'s 4', description: 'The final chapter of the original story, set in a child\'s bedroom.', category: 'horror', image: 'Imgs/fnaf4.png', url: 'Games/fnaf4.html' },
+            { id: 'footballegends', name: 'Football Legends', description: 'Play as legendary football players in this arcade-style game.', category: 'sports', image: 'Imgs/footballegends.png', url: 'Games/footballegends.html' },
+            { id: 'fortnite', name: 'Fortnite', description: 'The popular battle royale game with building mechanics.', category: 'shooter', image: 'Imgs/fortnite.png', url: 'Games/fortnite.html' },
+            { id: 'geometrydash', name: 'Geometry Dash', description: 'Jump and fly your way through geometric worlds.', category: 'rhythm', image: 'Imgs/geometrydash.png', url: 'Games/geometrydash.html' },
+            { id: 'getaway shootout', name: 'Getaway Shootout', description: 'Race, jump, and shoot your way to the helicopter in this chaotic game.', category: 'action', image: 'Imgs/getawayshootout.png', url: 'Games/getawayshootout.html' },
+            { id: 'gumballracing', name: 'Gumball Racing', description: 'Race with Gumball and friends in various vehicles and tracks.', category: 'racing', image: 'Imgs/gumballracing.png', url: 'Games/gumballracing.html' },
+            { id: 'happywheels', name: 'Happy Wheels', description: 'A ragdoll physics-based obstacle course game with gruesome consequences.', category: 'casual', image: 'Imgs/happywheels.png', url: 'Games/happywheels.html' },
+            { id: 'hextris', name: 'Hextris', description: 'A fast-paced puzzle game inspired by Tetris, but with hexagons!', category: 'puzzle', image: 'Imgs/hextris.png', url: 'Games/hextris.html' },
+            { id: 'houseofhazards', name: 'House of Hazards', description: 'Navigate a house filled with traps and dangerous obstacles.', category: 'puzzle', image: 'Imgs/houseofhazards.png', url: 'Games/houseofhazards.html' },
+            { id: 'idlebreakout', name: 'Idle Breakout', description: 'An idle game where you break bricks by upgrading your balls.', category: 'casual', image: 'Imgs/idlebreakout.png', url: 'Games/idlebreakout.html' },
+            { id: 'ovo', name: 'OvO', description: 'A challenging platformer with unique mechanics and level design.', category: 'platformer', image: 'Imgs/ovo.png', url: 'Games/ovo.html' },
+            { id: 'paperio2', name: 'Paper.io 2', description: 'Conquer as much territory as possible in this addictive multiplayer game.', category: 'multiplayer', image: 'Imgs/paperio2.png', url: 'Games/paperio2.html' },
+            { id: 'pixelgun3d', name: 'Pixel Gun 3D', description: 'A blocky first-person shooter with a variety of weapons and game modes.', category: 'shooter', image: 'Imgs/pixelgun3d.png', url: 'Games/pixelgun3d.html' },
+            { id: 'slope', name: 'Slope', description: 'Roll down a steep slope, avoiding obstacles and trying to stay on track.', category: 'casual', image: 'Imgs/slope.png', url: 'Games/slope.html' },
+            { id: 'smashkarts', name: 'Smash Karts', description: 'Multiplayer kart combat with crazy weapons and arenas.', category: 'racing', image: 'Imgs/smashkarts.png', url: 'Games/smashkarts.html' },
+            { id: 'snake', name: 'Snake', description: 'The classic arcade game. Grow your snake by eating food, but don\'t hit the walls or yourself!', category: 'casual', image: 'Imgs/snake.png', url: 'Games/snake.html' },
+            { id: 'solitaire', name: 'Solitaire', description: 'The timeless card game. Play classic Solitaire anytime, anywhere.', category: 'puzzle', image: 'Imgs/solitaire.png', url: 'Games/solitaire.html' },
+            { id: 'subwaysurfers', name: 'Subway Surfers', description: 'Run and surf through the subway, dodging trains and collecting coins.', category: 'casual', image: 'Imgs/subwaysurfers.png', url: 'Games/subwaysurfers.html' },
+            { id: 'superhot', name: 'SUPERHOT', description: 'Time moves only when you move in this innovative first-person shooter.', category: 'shooter', image: 'Imgs/superhot.png', url: 'Games/superhot.html' },
+            { id: 'terraria', name: 'Terraria', description: 'Dig, fight, explore, build! The world is your canvas in this adventure game.', category: 'adventure', image: 'Imgs/terraria.png', url: 'Games/terraria.html' },
+            { id: 'thefinalearth2', name: 'The Final Earth 2', description: 'Build a space colony and manage resources to ensure survival.', category: 'strategy', image: 'Imgs/thefinalearth2.png', url: 'Games/thefinalearth2.html' },
+            { id: 'theimpossiblequiz', name: 'The Impossible Quiz', description: 'Test your knowledge and patience with this notoriously difficult quiz game.', category: 'puzzle', image: 'Imgs/theimpossiblequiz.png', url: 'Games/theimpossiblequiz.html' },
+            { id: 'therewillbeblood', name: 'There Will Be Blood', description: 'A brutal arena combat game where strategy and timing are key.', category: 'action', image: 'Imgs/therewillbeblood.png', url: 'Games/therewillbeblood.html' },
+            { id: 'tunnelrush', name: 'Tunnel Rush', description: 'Rush through a constantly changing tunnel, avoiding obstacles.', category: 'casual', image: 'Imgs/tunnelrush.png', url: 'Games/tunnelrush.html' },
+            { id: 'tunnelrush2', name: 'Tunnel Rush 2', description: 'Even faster and more challenging tunnel racing!', category: 'casual', image: 'Imgs/tunnelrush2.png', url: 'Games/tunnelrush2.html' },
+            { id: 'unblockedgamesworld', name: 'Unblocked Games World', description: 'A hub for various unblocked games.', category: 'casual', image: 'Imgs/unblockedgamesworld.png', url: 'Games/unblockedgamesworld.html' },
+            { id: 'vex3', name: 'Vex 3', description: 'Navigate through challenging levels filled with deadly traps.', category: 'platformer', image: 'Imgs/vex3.png', url: 'Games/vex3.html' },
+            { id: 'vex4', name: 'Vex 4', description: 'More levels, more challenges, more Vexing fun!', category: 'platformer', image: 'Imgs/vex4.png', url: 'Games/vex4.html' },
+            { id: 'vex5', name: 'Vex 5', description: 'The latest installment in the popular Vex series.', category: 'platformer', image: 'Imgs/vex5.png', url: 'Games/vex5.html' },
+            { id: 'vex6', name: 'Vex 6', description: 'Master new moves and overcome even tougher obstacles.', category: 'platformer', image: 'Imgs/vex6.png', url: 'Games/vex6.html' },
+            { id: 'vex7', name: 'Vex 7', description: 'The ultimate Vex challenge awaits!', category: 'platformer', image: 'Imgs/vex7.png', url: 'Games/vex7.html' },
+            { id: 'wheely8', name: 'Wheely 8', description: 'Help Wheely solve puzzles and escape in this charming point-and-click adventure.', category: 'puzzle', image: 'Imgs/wheely8.png', url: 'Games/wheely8.html' },
+            { id: 'wordle unlimited', name: 'Wordle Unlimited', description: 'Play the popular word-guessing game as many times as you like.', category: 'puzzle', image: 'Imgs/wordleunlimited.png', url: 'Games/wordleunlimited.html' },
+            { id: 'worlds hardest game', name: 'World\'s Hardest Game', description: 'Can you beat the world\'s hardest game? Probably not.', category: 'puzzle', image: 'Imgs/worlds_hardest_game.png', url: 'Games/worlds_hardest_game.html' },
+            { id: 'yohoho', name: 'YoHoHo.io', description: 'Become the biggest pirate in this multiplayer battle royale.', category: 'multiplayer', image: 'Imgs/yohoho.png', url: 'Games/yohoho.html' },
+            { id: 'zombsroyale', name: 'Zombs Royale', description: 'A 2D top-down battle royale game with zombies!', category: 'shooter', image: 'Imgs/zombsroyale.png', url: 'Games/zombsroyale.html' },
+        ];
+
+        const gameGrid = document.getElementById('gameGrid');
+        const searchInput = document.getElementById('searchInput');
+        const categoryFiltersContainer = document.querySelector('.category-filters');
+        let activeCategory = 'all'; // Default active category
+
+        // --- Intro Animation Script ---
+        window.addEventListener('DOMContentLoaded', () => {
+            const body = document.body;
+            setTimeout(() => {
+                body.classList.remove('intro-active');
+                body.classList.add('intro-finished');
+                body.classList.remove('no-scroll');
+            }, 5300); // Duration of the intro animation plus a small buffer
+        });
+
+        // --- Particle Background Script ---
+        const canvas = document.getElementById('particle-canvas');
+        const ctx = canvas.getContext('2d');
+        let particles = [];
+        const particleCount = 100;
+        const colors = ['#FF4500', '#FF8C00', '#FFA07A', '#FFD700'];
+
+        function setCanvasSize() {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+        }
+
+        class Particle {
+            constructor(x, y, radius, color, velocity) {
+                this.x = x;
+                this.y = y;
+                this.radius = radius;
+                this.color = color;
+                this.velocity = velocity;
+                this.alpha = 1;
+            }
+
+            draw() {
+                ctx.save();
+                ctx.globalAlpha = this.alpha;
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2, false);
+                ctx.fillStyle = this.color;
+                ctx.fill();
+                ctx.restore();
+            }
+
+            update() {
+                this.x += this.velocity.x;
+                this.y += this.velocity.y;
+                this.alpha -= 0.008; // Particles fade out
+                this.radius *= 0.995; // Particles shrink slightly
+
+                if (this.alpha <= 0.1 || this.radius < 0.5) {
+                    this.reset();
+                }
+                this.draw();
+            }
+
+            reset() {
+                this.x = Math.random() * canvas.width;
+                this.y = Math.random() * canvas.height;
+                this.radius = Math.random() * 2 + 1;
+                this.color = colors[Math.floor(Math.random() * colors.length)];
+                this.velocity = {
+                    x: (Math.random() - 0.5) * 0.5, // Slower movement
+                    y: (Math.random() - 0.5) * 0.5
+                };
+                this.alpha = Math.random() * 0.5 + 0.5;
+            }
+        }
+
+        function initParticles() {
+            particles = [];
+            for (let i = 0; i < particleCount; i++) {
+                const x = Math.random() * canvas.width;
+                const y = Math.random() * canvas.height;
+                const radius = Math.random() * 2 + 1;
+                const color = colors[Math.floor(Math.random() * colors.length)];
+                const velocity = {
+                    x: (Math.random() - 0.5) * 0.5,
+                    y: (Math.random() - 0.5) * 0.5
+                };
+                particles.push(new Particle(x, y, radius, color, velocity));
+            }
+        }
+
+        function animateParticles() {
+            requestAnimationFrame(animateParticles);
+            ctx.clearRect(0, 0, canvas.width, canvas.height); // Clear the canvas
+
+            particles.forEach(particle => {
+                particle.update();
+            });
+        }
+
+        window.addEventListener('resize', setCanvasSize);
+
+        setCanvasSize();
+        initParticles();
+        animateParticles();
+
+        // --- Game Grid and Filtering Logic ---
+
+        function createGameCard(game) {
+            const gameCard = document.createElement('a');
+            gameCard.href = game.url;
+            gameCard.classList.add('game-card');
+            gameCard.innerHTML = `
+                <img src="${game.image}" alt="${game.name}">
+                <h3>${game.name}</h3>
+                <p>${game.description}</p>
+                <span class="play-button">Play Now</span>
+            `;
+            return gameCard;
+        }
+
+        function displayGames(filteredGames) {
+            gameGrid.innerHTML = ''; // Clear current games
+            filteredGames.forEach(game => {
+                gameGrid.appendChild(createGameCard(game));
+            });
+        }
+
+        function filterGames(searchTerm, category) {
+            let filtered = games;
+
+            if (category !== 'all') {
+                filtered = filtered.filter(game => game.category === category);
+            }
+
+            if (searchTerm) {
+                const lowerCaseSearchTerm = searchTerm.toLowerCase();
+                filtered = filtered.filter(game =>
+                    game.name.toLowerCase().includes(lowerCaseSearchTerm) ||
+                    game.description.toLowerCase().includes(lowerCaseSearchTerm)
+                );
+            }
+            displayGames(filtered);
+        }
+
+        function generateCategoryFilters() {
+            const categories = ['all', ...new Set(games.map(game => game.category))];
+            categoryFiltersContainer.innerHTML = ''; // Clear existing buttons
+
+            categories.forEach(category => {
+                const button = document.createElement('button');
+                button.textContent = category.charAt(0).toUpperCase() + category.slice(1);
+                button.dataset.category = category;
+                if (category === activeCategory) {
+                    button.classList.add('active');
+                }
+                button.addEventListener('click', () => {
+                    activeCategory = category;
+                    // Remove active class from all buttons
+                    document.querySelectorAll('.category-filters button').forEach(btn => {
+                        btn.classList.remove('active');
+                    });
+                    // Add active class to the clicked button
+                    button.classList.add('active');
+                    filterGames(searchInput.value, activeCategory);
+                });
+                categoryFiltersContainer.appendChild(button);
+            });
+        }
+
+        // Initial display of all games and category filters
+        displayGames(games);
+        generateCategoryFilters();
+
+        // Event listener for search input
+        searchInput.addEventListener('input', (event) => {
+            filterGames(event.target.value, activeCategory);
+        });
+
+        // Event listener for navigation links
+        document.querySelectorAll('nav ul li a').forEach(link => {
+            link.addEventListener('click', function(event) {
+                // Remove 'active' class from all nav links
+                document.querySelectorAll('nav ul li a').forEach(navLink => {
+                    navLink.classList.remove('active');
+                });
+                // Add 'active' class to the clicked link
+                this.classList.add('active');
+            });
+        });
+    </script>
+</body>
+</html>
